@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-const entry = fs.readFileSync("./entry1.txt", { encoding: "utf-8" });
+const entry = fs.readFileSync("./entry.txt", { encoding: "utf-8" });
 const entries = entry.split("\n");
 
 let currentCalories = 0;
@@ -24,7 +24,7 @@ for (let i = 0; i < entries.length; i++) {
 }
 
 console.log(
-  `The elf carrying the most calories is carrying: ${mostCalories[0]} calories`
+  `The elf carrying the most calories is carrying: ${mostCalories[0]} calories.\n`
 );
 
 console.log(
@@ -35,5 +35,5 @@ console.log(
   `Which gives us a total of: ${mostCalories.reduce(
     (acc, value) => acc + value,
     0
-  )}`
+  )}.`
 );
