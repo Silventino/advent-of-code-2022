@@ -67,8 +67,6 @@ The Elves just need to know which crate will end up on top of each stack; in thi
 
 After the rearrangement procedure completes, what crate ends up on top of each stack?
 
-Your puzzle answer was GFTNRBZPF.
-
 ## Part Two
 
 As you watch the crane operator expertly rearrange the crates, you notice the process isn't following your prediction.
